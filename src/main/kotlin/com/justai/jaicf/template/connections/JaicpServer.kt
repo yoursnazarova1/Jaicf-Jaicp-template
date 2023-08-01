@@ -15,7 +15,7 @@ fun main() {
             ChatApiChannel,
             ChatWidgetChannel,
             TelephonyChannel,
-            TelegramChannel
+            TelegramChannel (telegabug_bot, "6362470387:AAHOhlUp-cWWOLUPUH8-5xokd-wZUVwnuUE").run()
         ), url = "https://lts-ha01.lo.test-ai.net/chatadapter"
     ).start(wait = true)
 }
