@@ -14,7 +14,8 @@ fun main() {
         channels = listOf(
             ChatApiChannel,
             ChatWidgetChannel,
-            TelephonyChannel
+            TelephonyChannel,
+            TelegramChannel
         ), url = "https://lts-ha01.lo.test-ai.net/chatadapter"
     ).start(wait = true)
 }
