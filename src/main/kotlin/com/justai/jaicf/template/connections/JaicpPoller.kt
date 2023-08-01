@@ -15,6 +15,6 @@ fun main() {
             ChatApiChannel,
             ChatWidgetChannel,
             TelephonyChannel
-        )
+        ), url = "https://lts-ha01.lo.test-ai.net/chatadapter"
     ).runBlocking()
 }
