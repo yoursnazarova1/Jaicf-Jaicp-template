@@ -17,6 +17,6 @@ fun main() {
             ChatWidgetChannel,
             TelephonyChannel,
             TelegramChannel
-        ), url = "https://lts-ha01.lo.test-ai.net/chatadapter"
+        ), url = "https://jaicp.zfl-stage.lo.test-ai.net/chatadapter"
     ).runBlocking()
 }
